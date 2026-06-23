@@ -32,3 +32,28 @@ Future Scope
 - Hyperparameter optimization for improved accuracy
 - Deployment as a web-based prediction system
 - Expansion with additional environmental datasets
+
+How to run this code
+This project has 3 csv files which need to be downloaded and one main.py file which has the python code to run the project. 
+
+The project was changed to adapt Jupyter Notebook on Pycharm editor using Tensorflow Keras environment. So the code is directly compatible to Jupyter Notebook too. 
+
+Only thing left is to set up tensorflow environments. 
+If its Jupyter Notebook run this-
+
+python -m venv tf_env
+tf_env\Scripts\activate (windows)
+source tf_env/bin/activate (Linux or mac)
+
+pip install tensorflow jupyter notebook ipykernel pandas numpy matplotlib scikit-learn
+
+python -c "import tensorflow as tf; print(tf.__version__)"
+
+python -m ipykernel install --user --name=tf_env --display-name="TensorFlow Environment"
+
+jupyter notebook
+
+For Pycharm follow same steps except the last two instead use this-
+tf_env\Scripts\python.exe
+
+Now you have your environment and now you can execute this code in your environment.
