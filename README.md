@@ -413,7 +413,7 @@ Possible enhancements:
 ---
 
 
-##How to Run the Project in Jupyter Notebook
+## How to Run the Project in Jupyter Notebook
 Step 1: Install Python
 
 Download Python:
