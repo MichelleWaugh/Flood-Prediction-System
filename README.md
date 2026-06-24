@@ -413,7 +413,7 @@ Possible enhancements:
 ---
 
 
-How to Run the Project in Jupyter Notebook
+##How to Run the Project in Jupyter Notebook
 Step 1: Install Python
 
 Download Python:
@@ -475,7 +475,7 @@ sample_submission.csv will be generated in the project folder.
 
 
 
-How to Run the Project in PyCharm
+## How to Run the Project in PyCharm
 Step 1: Install PyCharm
 
 Download:
@@ -544,12 +544,12 @@ Step 7: View Results
 
 Outputs:
 
-Missing value report
-Correlation analysis
-Visualizations
-Model summary
-Training logs
-Evaluation metrics
+Missing value report,
+Correlation analysis,
+Visualizations,
+Model summary,
+Training logs,
+Evaluation metrics,
 
 Generated file:
 
